@@ -1,5 +1,5 @@
 triggers:
-   - name: fltgh-tg1
+   - name: fltbb-tg1
      type: trigger
      version:
        counter: 1
