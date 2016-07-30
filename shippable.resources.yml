@@ -2,7 +2,7 @@ resources:
 
 #CLUSTERS
 
-  - name: fltgh-ddccluster
+  - name: fltbb-ddccluster
     type: cluster
     integration: plv2-ddc
     pointer:
@@ -10,7 +10,7 @@ resources:
       
 #IMAGES
         
-  - name: fltgh-img1
+  - name: fltbb-img1
     type: image
     integration: plv2-docker
     pointer:
