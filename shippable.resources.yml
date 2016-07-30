@@ -1,0 +1,20 @@
+resources:
+
+#CLUSTERS
+
+  - name: fltgh-ddccluster
+    type: cluster
+    integration: plv2-ddc
+    pointer:
+      sourceName : "nothing" #we can anything because it is mandatory but ddc doesnot have clusters
+      
+#IMAGES
+        
+  - name: fltgh-img1
+    type: image
+    integration: plv2-docker
+    pointer:
+      sourceName: "shippabledocker/pipelinev2"
+    seed:
+      versionName: "deploy.1"
+
